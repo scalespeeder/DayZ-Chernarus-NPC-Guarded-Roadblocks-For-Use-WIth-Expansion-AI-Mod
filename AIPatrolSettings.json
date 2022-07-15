@@ -1,5 +1,5 @@
 {
-    "m_Version": 6,
+    "m_Version": 7,
     "Enabled": 1,
     "RespawnTime": -1.0,
     "MinDistRadius": 400.0,
@@ -8,7 +8,8 @@
     "ObjectPatrols": [
         {
             "Faction": "West",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
             "Speed": "WALK",
@@ -21,11 +22,13 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "ClassName": "Wreck_UH1Y"
         },
         {
             "Faction": "East",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
             "Speed": "WALK",
@@ -38,10 +41,12 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "ClassName": "Wreck_Mi8_Crashed"
         },
         {
             "Faction": "East",
+            "Formation": "",
             "LoadoutFile": "PoliceLoadout",
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -55,10 +60,12 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "ClassName": "Land_Wreck_sed01_aban1_police"
         },
         {
             "Faction": "East",
+            "Formation": "",
             "LoadoutFile": "PoliceLoadout",
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -72,10 +79,12 @@
             "MinSpreadRadius": 5.0,
             "MaxSpreadRadius": 20.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "ClassName": "Land_Wreck_sed01_aban2_police"
         },
         {
             "Faction": "West",
+            "Formation": "",
             "LoadoutFile": "NBCLoadout",
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -89,10 +98,12 @@
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 150.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "ClassName": "ContaminatedArea_Static"
         },
         {
             "Faction": "West",
+            "Formation": "",
             "LoadoutFile": "NBCLoadout",
             "NumberOfAI": -3,
             "Behaviour": "HALT_OR_ALTERNATE",
@@ -106,26 +117,29 @@
             "MinSpreadRadius": 0.0,
             "MaxSpreadRadius": 150.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "ClassName": "ContaminatedArea_Dynamic"
         }
     ],
     "Patrols": [
 	
-	 {
+	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -138,19 +152,21 @@
 		
 		{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -163,19 +179,21 @@
 	
 	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -188,19 +206,21 @@
 	
 	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -213,19 +233,21 @@
 	
 	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -238,19 +260,21 @@
 	
 	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -263,19 +287,21 @@
 		
 		{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -285,14 +311,13 @@
                 ]
             ]
         },
-		
-		
-		
+	
 	
 	
         {
             "Faction": "West",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -305,6 +330,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -366,7 +392,8 @@
         },
         {
             "Faction": "West",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 3,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -379,6 +406,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -420,7 +448,8 @@
         },
         {
             "Faction": "Raiders",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 1,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -433,6 +462,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -459,7 +489,8 @@
         },
         {
             "Faction": "Raiders",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 1,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -472,6 +503,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -593,7 +625,8 @@
         },
         {
             "Faction": "Civilian",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 4,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -606,6 +639,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -737,7 +771,8 @@
         },
         {
             "Faction": "Civilian",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 4,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -750,6 +785,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -771,7 +807,8 @@
         },
         {
             "Faction": "West",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 4,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -784,6 +821,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -845,7 +883,8 @@
         },
         {
             "Faction": "East",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 4,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -858,6 +897,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -889,7 +929,8 @@
         },
         {
             "Faction": "East",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 4,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -902,6 +943,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -933,7 +975,8 @@
         },
         {
             "Faction": "West",
-            "LoadoutFile": "BanditLoadout",
+            "Formation": "",
+            "LoadoutFile": "",
             "NumberOfAI": 4,
             "Behaviour": "ALTERNATE",
             "Speed": "WALK",
@@ -946,6 +989,7 @@
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 100.0,
             "Chance": 1.0,
+            "WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [

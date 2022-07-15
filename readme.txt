@@ -35,6 +35,7 @@ I have included the DayZ Editor compatible "editable-road-blocks-chernarus.dze" 
 
 Ensure the your cfggameply.json file is activated in your online server settings panel, or in your serverDZ.cfg file, in which case you should have
 a line like this:
+
 enableCfgGameplayFile = 1;
 
 I recommend your create a folder named "custom" within your mission folder, and then upload "road-blocks-chernarus.json" to that custom folder.
@@ -61,19 +62,21 @@ paste the following code:
 
  {
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -86,19 +89,21 @@ paste the following code:
 		
 		{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -111,19 +116,21 @@ paste the following code:
 	
 	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -136,19 +143,21 @@ paste the following code:
 	
 	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -161,19 +170,21 @@ paste the following code:
 	
 	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -186,19 +197,21 @@ paste the following code:
 	
 	{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
@@ -211,19 +224,21 @@ paste the following code:
 		
 		{
             "Faction": "Mercenaries",
+			"Formation": "",
             "LoadoutFile": "TTSKOLoadout",
             "NumberOfAI": 3,
             "Behaviour": "HALT",
             "Speed": "WALK",
             "UnderThreatSpeed": "WALK",
             "CanBeLooted": 1,
-            "UnlimitedReload": 0,
+            "UnlimitedReload": 1,
             "MinDistRadius": -2.0,
             "MaxDistRadius": -2.0,
             "DespawnRadius": -2.200000047683716,
             "MinSpreadRadius": 1.0,
             "MaxSpreadRadius": 10.0,
             "Chance": 1.0,
+			"WaypointInterpolation": "",
             "RespawnTime": -2.0,
             "Waypoints": [
                 [
